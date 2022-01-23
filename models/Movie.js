@@ -17,6 +17,7 @@ const MovieSchema = new mongoose.Schema(
     director: { type: String },
     writer: { type: String },
     type: { type: String },
+    category: { type: String },
     episode: { type: Number },
     season: { type: Number },
     isSeries: { type: Boolean, default: false },
